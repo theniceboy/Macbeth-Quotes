@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63C90F6E2241975200D756CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C90F6D2241975200D756CB /* AppDelegate.swift */; };
+		63C90F702241975200D756CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C90F6F2241975200D756CB /* ViewController.swift */; };
+		63C90F732241975200D756CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C90F712241975200D756CB /* Main.storyboard */; };
+		63C90F752241975300D756CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C90F742241975300D756CB /* Assets.xcassets */; };
+		63C90F782241975300D756CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C90F762241975300D756CB /* LaunchScreen.storyboard */; };
+		63C90F832241975300D756CB /* Macbeth_QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C90F822241975300D756CB /* Macbeth_QuotesTests.swift */; };
+		63C90F8E2241975400D756CB /* Macbeth_QuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C90F8D2241975400D756CB /* Macbeth_QuotesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63C90F7F2241975300D756CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C90F622241975200D756CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63C90F692241975200D756CB;
+			remoteInfo = "Macbeth Quotes";
+		};
+		63C90F8A2241975400D756CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C90F622241975200D756CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63C90F692241975200D756CB;
+			remoteInfo = "Macbeth Quotes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63C90F6A2241975200D756CB /* Macbeth Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Macbeth Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C90F6D2241975200D756CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63C90F6F2241975200D756CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63C90F722241975200D756CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63C90F742241975300D756CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63C90F772241975300D756CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63C90F792241975300D756CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C90F7E2241975300D756CB /* Macbeth QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Macbeth QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C90F822241975300D756CB /* Macbeth_QuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macbeth_QuotesTests.swift; sourceTree = "<group>"; };
+		63C90F842241975300D756CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C90F892241975400D756CB /* Macbeth QuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Macbeth QuotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C90F8D2241975400D756CB /* Macbeth_QuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macbeth_QuotesUITests.swift; sourceTree = "<group>"; };
+		63C90F8F2241975400D756CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C90F672241975200D756CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C90F7B2241975300D756CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C90F862241975400D756CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63C90F612241975200D756CB = {
+			isa = PBXGroup;
+			children = (
+				63C90F6C2241975200D756CB /* Macbeth Quotes */,
+				63C90F812241975300D756CB /* Macbeth QuotesTests */,
+				63C90F8C2241975400D756CB /* Macbeth QuotesUITests */,
+				63C90F6B2241975200D756CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63C90F6B2241975200D756CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C90F6A2241975200D756CB /* Macbeth Quotes.app */,
+				63C90F7E2241975300D756CB /* Macbeth QuotesTests.xctest */,
+				63C90F892241975400D756CB /* Macbeth QuotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C90F6C2241975200D756CB /* Macbeth Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				63C90F6D2241975200D756CB /* AppDelegate.swift */,
+				63C90F6F2241975200D756CB /* ViewController.swift */,
+				63C90F712241975200D756CB /* Main.storyboard */,
+				63C90F742241975300D756CB /* Assets.xcassets */,
+				63C90F762241975300D756CB /* LaunchScreen.storyboard */,
+				63C90F792241975300D756CB /* Info.plist */,
+			);
+			path = "Macbeth Quotes";
+			sourceTree = "<group>";
+		};
+		63C90F812241975300D756CB /* Macbeth QuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				63C90F822241975300D756CB /* Macbeth_QuotesTests.swift */,
+				63C90F842241975300D756CB /* Info.plist */,
+			);
+			path = "Macbeth QuotesTests";
+			sourceTree = "<group>";
+		};
+		63C90F8C2241975400D756CB /* Macbeth QuotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63C90F8D2241975400D756CB /* Macbeth_QuotesUITests.swift */,
+				63C90F8F2241975400D756CB /* Info.plist */,
+			);
+			path = "Macbeth QuotesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C90F692241975200D756CB /* Macbeth Quotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C90F922241975400D756CB /* Build configuration list for PBXNativeTarget "Macbeth Quotes" */;
+			buildPhases = (
+				63C90F662241975200D756CB /* Sources */,
+				63C90F672241975200D756CB /* Frameworks */,
+				63C90F682241975200D756CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Macbeth Quotes";
+			productName = "Macbeth Quotes";
+			productReference = 63C90F6A2241975200D756CB /* Macbeth Quotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63C90F7D2241975300D756CB /* Macbeth QuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C90F952241975400D756CB /* Build configuration list for PBXNativeTarget "Macbeth QuotesTests" */;
+			buildPhases = (
+				63C90F7A2241975300D756CB /* Sources */,
+				63C90F7B2241975300D756CB /* Frameworks */,
+				63C90F7C2241975300D756CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63C90F802241975300D756CB /* PBXTargetDependency */,
+			);
+			name = "Macbeth QuotesTests";
+			productName = "Macbeth QuotesTests";
+			productReference = 63C90F7E2241975300D756CB /* Macbeth QuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63C90F882241975400D756CB /* Macbeth QuotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C90F982241975400D756CB /* Build configuration list for PBXNativeTarget "Macbeth QuotesUITests" */;
+			buildPhases = (
+				63C90F852241975400D756CB /* Sources */,
+				63C90F862241975400D756CB /* Frameworks */,
+				63C90F872241975400D756CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63C90F8B2241975400D756CB /* PBXTargetDependency */,
+			);
+			name = "Macbeth QuotesUITests";
+			productName = "Macbeth QuotesUITests";
+			productReference = 63C90F892241975400D756CB /* Macbeth QuotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C90F622241975200D756CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "David Chen";
+				TargetAttributes = {
+					63C90F692241975200D756CB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					63C90F7D2241975300D756CB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 63C90F692241975200D756CB;
+					};
+					63C90F882241975400D756CB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 63C90F692241975200D756CB;
+					};
+				};
+			};
+			buildConfigurationList = 63C90F652241975200D756CB /* Build configuration list for PBXProject "Macbeth Quotes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63C90F612241975200D756CB;
+			productRefGroup = 63C90F6B2241975200D756CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C90F692241975200D756CB /* Macbeth Quotes */,
+				63C90F7D2241975300D756CB /* Macbeth QuotesTests */,
+				63C90F882241975400D756CB /* Macbeth QuotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C90F682241975200D756CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C90F782241975300D756CB /* LaunchScreen.storyboard in Resources */,
+				63C90F752241975300D756CB /* Assets.xcassets in Resources */,
+				63C90F732241975200D756CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C90F7C2241975300D756CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C90F872241975400D756CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C90F662241975200D756CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C90F702241975200D756CB /* ViewController.swift in Sources */,
+				63C90F6E2241975200D756CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C90F7A2241975300D756CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C90F832241975300D756CB /* Macbeth_QuotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C90F852241975400D756CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C90F8E2241975400D756CB /* Macbeth_QuotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63C90F802241975300D756CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63C90F692241975200D756CB /* Macbeth Quotes */;
+			targetProxy = 63C90F7F2241975300D756CB /* PBXContainerItemProxy */;
+		};
+		63C90F8B2241975400D756CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63C90F692241975200D756CB /* Macbeth Quotes */;
+			targetProxy = 63C90F8A2241975400D756CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63C90F712241975200D756CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C90F722241975200D756CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63C90F762241975300D756CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C90F772241975300D756CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63C90F902241975400D756CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63C90F912241975400D756CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C90F932241975400D756CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W7V5B7Q6;
+				INFOPLIST_FILE = "Macbeth Quotes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cwsoft.Macbeth-Quotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63C90F942241975400D756CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W7V5B7Q6;
+				INFOPLIST_FILE = "Macbeth Quotes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cwsoft.Macbeth-Quotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63C90F962241975400D756CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W7V5B7Q6;
+				INFOPLIST_FILE = "Macbeth QuotesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cwsoft.Macbeth-QuotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Macbeth Quotes.app/Macbeth Quotes";
+			};
+			name = Debug;
+		};
+		63C90F972241975400D756CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W7V5B7Q6;
+				INFOPLIST_FILE = "Macbeth QuotesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cwsoft.Macbeth-QuotesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Macbeth Quotes.app/Macbeth Quotes";
+			};
+			name = Release;
+		};
+		63C90F992241975400D756CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W7V5B7Q6;
+				INFOPLIST_FILE = "Macbeth QuotesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cwsoft.Macbeth-QuotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Macbeth Quotes";
+			};
+			name = Debug;
+		};
+		63C90F9A2241975400D756CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W7V5B7Q6;
+				INFOPLIST_FILE = "Macbeth QuotesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cwsoft.Macbeth-QuotesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Macbeth Quotes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C90F652241975200D756CB /* Build configuration list for PBXProject "Macbeth Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C90F902241975400D756CB /* Debug */,
+				63C90F912241975400D756CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C90F922241975400D756CB /* Build configuration list for PBXNativeTarget "Macbeth Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C90F932241975400D756CB /* Debug */,
+				63C90F942241975400D756CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C90F952241975400D756CB /* Build configuration list for PBXNativeTarget "Macbeth QuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C90F962241975400D756CB /* Debug */,
+				63C90F972241975400D756CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C90F982241975400D756CB /* Build configuration list for PBXNativeTarget "Macbeth QuotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C90F992241975400D756CB /* Debug */,
+				63C90F9A2241975400D756CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63C90F622241975200D756CB /* Project object */;
+}
