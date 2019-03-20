@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6396D42722419F2900DB18C0 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396D42622419F2900DB18C0 /* Quotes.swift */; };
 		63C90F6E2241975200D756CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C90F6D2241975200D756CB /* AppDelegate.swift */; };
 		63C90F702241975200D756CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C90F6F2241975200D756CB /* ViewController.swift */; };
 		63C90F732241975200D756CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C90F712241975200D756CB /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		63C90F782241975300D756CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C90F762241975300D756CB /* LaunchScreen.storyboard */; };
 		63C90F832241975300D756CB /* Macbeth_QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C90F822241975300D756CB /* Macbeth_QuotesTests.swift */; };
 		63C90F8E2241975400D756CB /* Macbeth_QuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C90F8D2241975400D756CB /* Macbeth_QuotesUITests.swift */; };
+		63C90F9E224197B400D756CB /* macbeth.html in Resources */ = {isa = PBXBuildFile; fileRef = 63C90F9D224197B400D756CB /* macbeth.html */; };
+		63C9101C22419A7E00D756CB /* frmMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C9101B22419A7E00D756CB /* frmMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6396D42622419F2900DB18C0 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 		63C90F6A2241975200D756CB /* Macbeth Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Macbeth Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C90F6D2241975200D756CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63C90F6F2241975200D756CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		63C90F892241975400D756CB /* Macbeth QuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Macbeth QuotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C90F8D2241975400D756CB /* Macbeth_QuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macbeth_QuotesUITests.swift; sourceTree = "<group>"; };
 		63C90F8F2241975400D756CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C90F9D224197B400D756CB /* macbeth.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = macbeth.html; sourceTree = "<group>"; };
+		63C9101B22419A7E00D756CB /* frmMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frmMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6396D42522419F1500DB18C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6396D42622419F2900DB18C0 /* Quotes.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		63C90F612241975200D756CB = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +111,16 @@
 		63C90F6C2241975200D756CB /* Macbeth Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				6396D42522419F1500DB18C0 /* Classes */,
+				63C9101A22419A5200D756CB /* Forms */,
+				63C90F9C224197A000D756CB /* Resources */,
 				63C90F6D2241975200D756CB /* AppDelegate.swift */,
 				63C90F6F2241975200D756CB /* ViewController.swift */,
 				63C90F712241975200D756CB /* Main.storyboard */,
 				63C90F742241975300D756CB /* Assets.xcassets */,
 				63C90F762241975300D756CB /* LaunchScreen.storyboard */,
 				63C90F792241975300D756CB /* Info.plist */,
+				63C90F9F22419A2000D756CB /* Third-Parties */,
 			);
 			path = "Macbeth Quotes";
 			sourceTree = "<group>";
@@ -123,6 +141,29 @@
 				63C90F8F2241975400D756CB /* Info.plist */,
 			);
 			path = "Macbeth QuotesUITests";
+			sourceTree = "<group>";
+		};
+		63C90F9C224197A000D756CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63C90F9D224197B400D756CB /* macbeth.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63C90F9F22419A2000D756CB /* Third-Parties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Third-Parties";
+			sourceTree = "<group>";
+		};
+		63C9101A22419A5200D756CB /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				63C9101B22419A7E00D756CB /* frmMain.swift */,
+			);
+			path = Forms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +273,7 @@
 				63C90F782241975300D756CB /* LaunchScreen.storyboard in Resources */,
 				63C90F752241975300D756CB /* Assets.xcassets in Resources */,
 				63C90F732241975200D756CB /* Main.storyboard in Resources */,
+				63C90F9E224197B400D756CB /* macbeth.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6396D42722419F2900DB18C0 /* Quotes.swift in Sources */,
 				63C90F702241975200D756CB /* ViewController.swift in Sources */,
+				63C9101C22419A7E00D756CB /* frmMain.swift in Sources */,
 				63C90F6E2241975200D756CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W7W7V5B7Q6;
 				INFOPLIST_FILE = "Macbeth Quotes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W7W7V5B7Q6;
 				INFOPLIST_FILE = "Macbeth Quotes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
